@@ -1,13 +1,10 @@
-
-#slide {
+#slide-foto {
   background-image: url("../img/post-image.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
   height: 100vh;
-  color: white;
-  //margin-top: -50px;
 
   .row {
     height: 100vh;
@@ -15,7 +12,15 @@
 
   h1 {
     font-family: 'Playfair Display', serif;
-    font-size: 100px;
+    font-size: $fontSize-xxl;
+    color: white;
+  }
 
+  @media screen and (min-width: 576px) {
+
+    h1 {
+      font-size: $fontSize-xxxl;
+      color: white;
+    }
   }
 }

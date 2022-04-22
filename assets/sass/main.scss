@@ -5,7 +5,7 @@
 
 //vendors
 @import "vendors/bootstrap/scss/bootstrap";
-@import "vendors/fontawesome/scss/fontawesome";
+//@import "vendors/fontawesome/scss/fontawesome";
 
 //base
 @import 'base/base';
@@ -13,9 +13,10 @@
 @import 'base/typography';
 
 //layout
-@import 'layout/section-slide';
+@import 'layout/section-slide-foto';
 @import 'layout/header';
 @import 'layout/main';
+@import 'layout/footer';
 
 //components
 @import 'components/buttons';
