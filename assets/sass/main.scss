@@ -4,7 +4,7 @@
 @import 'abstracts/variables';
 
 //vendors
-@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "vendors/bootstrap/scss/bootstrap";
 
 //base
 @import 'base/base';
@@ -12,9 +12,9 @@
 @import 'base/typography';
 
 //layout
-@import 'layout/forms';
+@import 'layout/section-slide';
 @import 'layout/header';
-@import 'layout/main-section';
+@import 'layout/main';
 
 //components
 @import 'components/buttons';

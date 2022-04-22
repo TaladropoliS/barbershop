@@ -11118,38 +11118,5 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
 
-#slide {
-  background-image: url("../img/post-image.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  color: white;
-  margin-top: -50px;
-}
-#slide .row {
-  height: 100vh;
-}
-#slide h1, #slide .h1 {
-  font-family: "Playfair Display", serif;
-  font-size: 100px;
-}
-#slide i {
-  font-size: 50px;
-}
-
-header {
-  font-family: "Roboto", sans-serif;
-}
-header img {
-  width: 65px;
-}
-
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=bootstrap.css.map */
