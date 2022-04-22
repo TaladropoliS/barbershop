@@ -1,0 +1,29 @@
+main {
+
+  section {
+
+    #div-titulo {
+      padding-top: 30px;
+      margin: auto;
+      text-align: center;
+      -webkit-mask-image: linear-gradient(to top, transparent 10%, $negroUno 40%);
+      mask-image: linear-gradient(to top, transparent 10%, $negroUno 90%);
+
+      h1 {
+        font-family: $font-playfair;
+        font-size: $fontSize-xxxxl;
+        color: $blancoUno;
+        padding: 0;
+        margin: 0;
+      }
+
+      p {
+        font-family: $font-openSans;
+        font-size: $fontSize-md;
+        padding-top: 15px;
+        color: $blancoUno;
+        text-shadow: 1px 1px 1px $negroUno;
+      }
+    }
+  }
+}
